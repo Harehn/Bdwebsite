@@ -1,11 +1,13 @@
 <template>
   <div class="main">    
+    <!-- <Box style="background-color:red"></Box> -->
+
     <!-- <Box style="background-color:aqua"><Heading message="Happy birthday, Johanna!! 🎂"/></Box> -->
     <Box style="background-color:grey">Animation</Box>
     <Box style="background-color:blue" id="letter"><Letter/></Box>
-    <Box style="background-color:black">Text Message</Box>
+    <!-- <Box style="background-color:black">Text Message</Box> -->
     <Box style="background-color:red">Masonry wall</Box>
-    <Box style="background-color:purple">Song</Box>
+    <Box style="background-color:purple"><Song/></Box>
   </div>
 </template>
 
@@ -14,6 +16,7 @@ import Box from './components/Box.vue';
 import HelloWorld from './components/HelloWorld.vue'
 import Heading from './components/Heading.vue'
 import Letter from './components/Letter.vue'
+import Song from './components/Song.vue'
 //Happy birthday, Johanna!! 🎂
 export default {
   name: 'App',
@@ -21,7 +24,8 @@ export default {
     HelloWorld,
     Box,
     Heading,
-    Letter
+    Letter,
+    Song
   }
 }
 </script>
