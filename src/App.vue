@@ -1,6 +1,6 @@
 <template>
   <div class="main">    
-    <Box style="background-color:aqua"><Heading message="Happy birthday, Johanna!! 🎂"/></Box>
+    <!-- <Box style="background-color:aqua"><Heading message="Happy birthday, Johanna!! 🎂"/></Box> -->
     <Box style="background-color:grey">Animation</Box>
     <Box style="background-color:blue" id="letter"><Letter/></Box>
     <Box style="background-color:black">Text Message</Box>
@@ -61,6 +61,13 @@ html, body {
   scroll-snap-type: y mandatory;
   overflow-y:scroll;
 }
+
+#letter {
+  background-image: url('~@/assets/paper2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* #letter {
   background-image: url(${require('@/assets/path/to/your/img.jpg')});
 } */

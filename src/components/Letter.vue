@@ -28,9 +28,10 @@ export default {
     text-align: center;
     align-content: center;
     margin: auto;
-    background-color: #F4F4F4;
+    background-color: rgba(255, 255, 255, 0.4);
     border: 5px dotted grey;
     border-radius: 10px;
-    overflow-y: scroll;
+    overflow-y: auto;
+    backdrop-filter: blur(5px);
 }
 </style>
