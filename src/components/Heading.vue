@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'Box',
+  name: 'Heading',
   props: {
     message: String
   }

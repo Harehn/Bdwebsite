@@ -1,8 +1,8 @@
 <template>
-  <div class="main">
+  <div class="main">    
     <Box style="background-color:aqua"><Heading message="Happy birthday, Johanna!! 🎂"/></Box>
     <Box style="background-color:grey">Animation</Box>
-    <Box style="background-color:blue">Letter</Box>
+    <Box style="background-color:blue" id="letter"><Letter/></Box>
     <Box style="background-color:black">Text Message</Box>
     <Box style="background-color:red">Masonry wall</Box>
     <Box style="background-color:purple">Song</Box>
@@ -13,13 +13,15 @@
 import Box from './components/Box.vue';
 import HelloWorld from './components/HelloWorld.vue'
 import Heading from './components/Heading.vue'
+import Letter from './components/Letter.vue'
 //Happy birthday, Johanna!! 🎂
 export default {
   name: 'App',
   components: {
     HelloWorld,
     Box,
-    Heading
+    Heading,
+    Letter
   }
 }
 </script>
@@ -59,4 +61,7 @@ html, body {
   scroll-snap-type: y mandatory;
   overflow-y:scroll;
 }
+/* #letter {
+  background-image: url(${require('@/assets/path/to/your/img.jpg')});
+} */
 </style>
