@@ -23,7 +23,7 @@ export default {
     /* background-color: aqua; */
     color:white;
     text-align: center;
-    display: flex;
+    /* display: flex; */
     align-content: center;
 }
 </style>
