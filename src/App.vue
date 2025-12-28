@@ -2,8 +2,8 @@
   <div class="main">    
     <Box style="background-color:grey"><Animation/></Box>
 
-    <!-- <Box style="background-color:aqua"><Heading message="Happy birthday, Johanna!! 🎂"/></Box> -->
-    <Box style="background-color:grey"><Animation/></Box>
+    <Box style="background-color:aqua"><Heading message="Happy birthday, Johanna!! 🎂"/></Box>
+    <!-- <Box style="background-color:grey"><Animation/></Box> -->
     <Box style="background-color:blue" id="letter"><Letter/></Box>
     <!-- <Box style="background-color:black">Text Message</Box> -->
     <Box style="background-color:red">Masonry wall</Box>
@@ -66,6 +66,9 @@ html, body {
   width: 100%;
   scroll-snap-type: y mandatory;
   overflow-y:scroll;
+}
+h1 {
+  color:black;
 }
 
 #letter {
