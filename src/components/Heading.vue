@@ -1,6 +1,8 @@
 <template>
   <div class="heading">
-    <h1>{{ message }}</h1>
+    <div class="content">
+      <h1>{{ message }}</h1>
+    </div>
   </div>
 </template>
 
@@ -17,6 +19,13 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .heading {
+    height:100%;
+    width:100%;
+    background-image: url('~@/assets/sky.jpg');
+    text-align: center;
+    align-content: center;
+}
+.content {
     /* height:100%;
     width:100%; */
     color:white;
