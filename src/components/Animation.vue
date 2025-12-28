@@ -55,7 +55,7 @@ export default {
   transform: translateX(20%);
   position:absolute;
   /* margin:auto; */
-  top: 40%;
+  top: 50%;
   left: 38%;
   opacity:0;
 }
